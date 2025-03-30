@@ -4,9 +4,11 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Digite para inverter ");
+        System.out.println("Digite o numero para inverter ");
         int numero = sc.nextInt();
         sc.nextLine();
+
+
         int resultado = calcularInverter(numero);
         System.out.println(resultado);
 
